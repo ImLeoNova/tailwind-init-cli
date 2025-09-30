@@ -29,23 +29,23 @@ execSync("npm install tailwindcss @tailwindcss/postcss postcss --force", {
 // ---- Step 2: Write PostCSS config ----
 if (target === "nextjs") {
   const content = `
-const config = {
-  plugins: {
-    "@tailwindcss/postcss": {},
-  },
-};
-export default config;
+    const config = {
+      plugins: {
+        "@tailwindcss/postcss": {},
+      },
+    };
+    export default config;
 `.trim();
   writeFileSync("postcss.config.mjs", content, "utf8");
   console.log("✅ postcss.config.mjs created for Next.js");
 } else if (target === "react") {
   const content = `
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-};
+    module.exports = {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    };
 `.trim();
   writeFileSync("postcss.config.cjs", content, "utf8");
   console.log("✅ postcss.config.cjs created for React");
