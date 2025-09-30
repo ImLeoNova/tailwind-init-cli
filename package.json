@@ -1,6 +1,6 @@
 {
   "name": "tailwind-init-cli",       
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI for initializing Tailwind CSS in Angular, React, or Next.js projects",
   "main": "tailwind-init.js",
   "bin": {

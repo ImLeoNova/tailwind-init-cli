@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { execSync } from "child_process";
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
 import path from "path";
