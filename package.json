@@ -1,6 +1,6 @@
 {
   "name": "tailwind-init-cli",       
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CLI for initializing Tailwind CSS in Angular, React, or Next.js projects",
   "main": "tailwind-init.js",
   "bin": {
@@ -9,6 +9,11 @@
   "scripts": {
     "start": "node tailwind-init.js"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImLeoNova/tailwind-init-cli.git"
+  },
+  "homepage": "https://github.com/ImLeoNova/tailwind-init-cli.git#readme",
   "keywords": ["tailwind", "cli", "react", "nextjs", "angular"],
   "author": "Arian Esmaeilzadeh",
   "license": "MIT",
