@@ -32,13 +32,13 @@ No more manual installs or editing CSS files—Tailwind-Init automates everythin
 ### Global Install
 
 ```bash
-npm install -g tailwind-init-cli
+npm install tailwind-init-cli
 ```
 
 ### Run via npx (no install needed)
 
 ```bash
-npx tailwind-init-cli
+npx tailwind-init
 ```
 
 ---
