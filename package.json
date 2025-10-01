@@ -4,7 +4,7 @@
   "description": "CLI for initializing Tailwind CSS in Angular, React, or Next.js projects",
   "main": "tailwind-init.js",
   "bin": {
-    "tailwind-init": "./tailwind-init.js"
+    "tailwind-init": "./bin/tailwind-init.js"
   },
   "scripts": {
     "start": "node tailwind-init.js"
